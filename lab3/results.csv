@@ -1,0 +1,8 @@
+﻿section,task,model,n_layers,parameters,duration_min,best_val_loss,best_iter,accuracy,correct_predictions,total_time_sec,avg_time_ms,template,avg_confidence
+3.2,Mini-GPT,mini_gpt_v1,2.0,1440416.0,0.8251999417940775,5.146448310216268,2999.0,,,,,,
+3.2,Mini-GPT,mini_gpt_v2,4.0,1836192.0,1.1986354470252991,5.006772406895956,2999.0,,,,,,
+5.2,Zero-shot Classification,MoritzLaurer/mDeBERTa-v3-base-mnli-xnli,,278811651.0,,,,1.0,20.0,2.1192,105.96,,
+5.2,Zero-shot Classification,MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7,,278811651.0,,,,0.9,18.0,3.8471,192.35,,
+5.3,Hypothesis template,MoritzLaurer/mDeBERTa-v3-base-mnli-xnli,,,,,,1.0,,,119.64,Цей текст стосується теми {}.,0.8844778716564179
+5.3,Hypothesis template,MoritzLaurer/mDeBERTa-v3-base-mnli-xnli,,,,,,1.0,,,127.6,Тематика цього тексту — {}.,0.8126305848360061
+5.3,Hypothesis template,MoritzLaurer/mDeBERTa-v3-base-mnli-xnli,,,,,,1.0,,,131.45,This text is about {}.,0.8689422309398651
